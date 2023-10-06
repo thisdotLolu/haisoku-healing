@@ -1,27 +1,85 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Monoton&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+	font-family: 'Google Sans';
+	src: local('Google Sans'), url(../fonts/Google-sans-Font-Family/ProductSans-Regular.ttf) format('truetype');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+@font-face {
+	font-family: 'Google Sans Bold';
+	src: local('Google Sans Bold'), url(../fonts/Google-sans-Font-Family/ProductSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Revans';
+	src: local('Revans'), url(../fonts/Revans-Medium.ttf) format('truetype');
+}
+
+.bold-font{
+  font-family: 'Google Sans Bold';
+}
+
+*{
+  font-family: Google Sans;
+
+}
+
+
+
+body::-webkit-scrollbar {
+	width: .7em;
   }
+   
+  body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+	background-color: #b5d9c7;
+	outline: 1px solid #b5d9c7;
+  }
+
+
+.gothic{
+  font-family: 'Revans';
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.hero-text{
+  color: white;
+  background-color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
+.section3-bg{
+  background-image:url("../../public/bg-section3.jpeg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.underline-curve{
+  position: relative;
+}
+
+
+.underline-curve::after{
+  content: '';
+  position: absolute;
+  width: 400px;
+  border-top: solid 4px #b5d9c7;
+  left:0;
+  bottom: -10px;
+  border-radius: 50%;
+  height: 9px;
+}
+
+
+/* .container-fluid {
+    @apply mx-auto max-w-[1920px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16
+} */
