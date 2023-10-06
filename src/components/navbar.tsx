@@ -3,6 +3,7 @@ import React from 'react'
 import Logo from './logo'
 import {BsPersonFill} from 'react-icons/bs'
 import Link from 'next/link'
+import { FaBars } from 'react-icons/fa'
 
 
 const navItems = [
@@ -34,7 +35,7 @@ const Navbar = () => {
         <div className='z-[10000] fixed top-0 left-0 border w-full bg-white mx-auto max-w-[1920px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 flex items-center justify-between h-[70px]'>
           <Logo/>
 
-          <div className='flex items-center justify-end w-[80%]'>
+          <div className='hidden items-center justify-end w-[80%] md:flex'>
             {
             navItems.map((item,index)=>(
                 <Link
@@ -55,6 +56,14 @@ const Navbar = () => {
           >
             Connect Wallet
           </button>
+          </div>
+
+          {/* <FaBars
+          className=''
+          size={25}
+          /> */}
+          
+          <div className=''>
           </div>     
           </div>
 

@@ -3,7 +3,7 @@ import Logo from './logo';
 
 const Footer = () => {
   return (
-    <div className='mx-auto max-w-[1920px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 flex items-start justify-between mt-[150px]'>
+    <div className='mx-auto max-w-[1920px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 md:flex md:flex-row flex flex-col items-start justify-between mt-[150px]'>
       <div className='flex flex-col'>
         <h3 className='text-[1.2rem] font-extrabold mb-[10px]'>Quick Links</h3>
         <p>Home</p>
@@ -13,19 +13,19 @@ const Footer = () => {
       </div>
 
       <div>
-        <h3 className='text-[1.2rem] font-extrabold mb-[10px]'>User</h3>
+        <h3 className='text-[1.2rem] font-extrabold mb-[10px] mt-[30px]'>User</h3>
         <p>Profile</p>
         <p>Login</p>
         <p>Register</p>
       </div>
 
-      <div>
+      <div className='mt-[20px]'>
         <img
         src='/academyLogo.png'
         className='w-[200px]'
         />
       </div>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col justify-center items-center my-[20px]'>
       <div className='h-[full] flex justify-center items-center cursor-pointer'>
         <h2
         className='text-[1.4rem]'

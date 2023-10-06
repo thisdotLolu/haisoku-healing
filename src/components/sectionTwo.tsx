@@ -19,7 +19,7 @@ const SectionTwo = () => {
     className='bg-[#b5d9c7] h-[5px] w-[50px] mr-[10px]'
     />
     <h1
-    className='text-[2.5rem]'
+    className='md:text-[2.5rem] text-[2rem]'
     >Our Services</h1>
     <hr
     className='bg-[#b5d9c7] h-[5px] w-[50px] ml-[10px]'
@@ -27,8 +27,8 @@ const SectionTwo = () => {
     </div>
 
 
-    <div className='flex flex-wrap justify-center items-center border-[#b5d9c7] border-[4px] rounded-xl h-[fit-content] w-[fit-content]'>
-        <div className='w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
+    <div className='md:flex md:flex-wrap flex flex-col md:flex-row justify-center items-center border-[#b5d9c7] border-[4px] rounded-xl h-[fit-content] md:w-[fit-content] w-[100%]'>
+        <div className='w-[100%] md:w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
           <BiLeaf
           size={50}
           />
@@ -39,7 +39,7 @@ const SectionTwo = () => {
           className='text-center'
           >Unearth the therapeutic potential of plants with our expertly crafted herbal remedies. We source the finest organic herbs to create blends that support your well-being</p>  
         </div>
-        <div className='w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
+        <div className='w-[100%] md:w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
           <SiMinds
           size={50}
           />
@@ -50,7 +50,7 @@ const SectionTwo = () => {
           className='text-center'
           >Discover mindfulness and meditation techniques that help you find inner balance and tranquility.</p>  
         </div>
-        <div className='w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
+        <div className='w-[100%] md:w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
           <FaNutritionix
           size={50}
           />
@@ -62,7 +62,7 @@ const SectionTwo = () => {
           >
           Learn how to nourish your body with whole, natural foods that promote health and vitality.</p>  
         </div>
-        <div className='w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
+        <div className='w-[100%] md:w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
           <SlEnergy
           size={50}
           />
@@ -73,7 +73,7 @@ const SectionTwo = () => {
           className='text-center'
           >Experience the rejuvenating power of energy healing modalities, promoting harmony in mind, body, and spirit.</p>  
         </div>
-        <div className='w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
+        <div className='w-[100%] md:w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
           <AiOutlineGlobal
           size={50}
           />

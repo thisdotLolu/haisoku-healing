@@ -1,11 +1,14 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 
 
 const Logo = () => {
   return (
-    <div className='h-[full] flex justify-center items-center cursor-pointer'>
+    <Link 
+    href='/'
+    className='h-[full] flex justify-center items-center cursor-pointer'>
         <h2
         className='text-[1.2rem]'
         >HAISOKU</h2>
@@ -18,7 +21,7 @@ const Logo = () => {
         <h2
         className='text-[1.2rem]'
         >HEALING</h2>
-    </div>
+    </Link>
   )
 }
 
