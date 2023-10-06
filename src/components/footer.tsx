@@ -13,19 +13,19 @@ const Footer = () => {
       </div>
 
       <div>
-        <h3 className='text-[1.2rem] font-extrabold mb-[10px] mt-[30px]'>User</h3>
+        <h3 className='text-[1.2rem] font-extrabold mb-[10px] md:mt-[0px] mt-[30px]'>User</h3>
         <p>Profile</p>
         <p>Login</p>
         <p>Register</p>
       </div>
 
-      <div className='mt-[20px]'>
+      <div className='md:mt-[0px] mt-[20px]'>
         <img
         src='/academyLogo.png'
         className='w-[200px]'
         />
       </div>
-      <div className='flex flex-col justify-center items-center my-[20px]'>
+      <div className='flex flex-col justify-center items-center md:mt-[0px] my-[20px]'>
       <div className='h-[full] flex justify-center items-center cursor-pointer'>
         <h2
         className='text-[1.4rem]'
