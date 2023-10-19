@@ -14,7 +14,7 @@ const SectionTwo = () => {
   return (
     <div className='mx-auto max-w-[1920px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 flex flex-col items-center justify-between mt-[100px]'>
         
-    <div className='flex justify-center items-center mb-[30px]'>
+    <div className='flex justify-center  items-center mb-[30px]'>
     <hr
     className='bg-[#b5d9c7] h-[5px] w-[50px] mr-[10px]'
     />
@@ -27,7 +27,7 @@ const SectionTwo = () => {
     </div>
 
 
-    <div className='md:flex md:flex-wrap flex flex-col md:flex-row justify-center items-center border-[#b5d9c7] border-[4px] rounded-xl h-[fit-content] md:w-[fit-content] w-[100%]'>
+    <div className='md:flex md:flex-wrap bg-[#b5d9c7]  flex flex-col md:flex-row justify-center items-center border-[#b5d9c7] border-[4px] rounded-xl h-[fit-content] md:w-[fit-content] w-[100%]'>
         <div className='w-[100%] md:w-[25vw] m-[10px] h-[200px] flex flex-col justify-center items-center'>
           <BiLeaf
           size={50}

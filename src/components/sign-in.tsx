@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const SignInForm = () => {
   return (
-        <div className='shadow-md w-[40vw] max-w-[40vw] border mt-[100px] h-[fit-content] p-[20px] rounded-md flex flex-col justify-center items-center bg-white'>
+        <div className='shadow-md md:w-[40vw] md:max-w-[40vw] w-[90vw] border mt-[100px] h-[fit-content] p-[20px] rounded-md flex flex-col justify-center items-center bg-white'>
             <Logo/>
             <h1 className='text-black text-[2rem]'>LOGIN</h1>
 

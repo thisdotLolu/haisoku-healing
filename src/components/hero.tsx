@@ -48,7 +48,7 @@ const Hero = () => {
             <div className='h-[100%] md:w-[45%] w-[100%]'>
                 <h2 className='text-[2.5rem] text-black my-[20px]'>
                     <span className='underline-curve'></span>
-                    Welcome to Haisoku Healing - Your Path to Natural Healing
+                    Welcome to Remedium Health - Your Path to Natural Healing
                 </h2>
 
                 <p className='text-[1.1rem] my-[20px]'>
@@ -69,7 +69,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='border md:h-[70vh] h-[40vh] md:w-[45%] mt-[10px] md:mt-[0px]'>
+            <div className='md:h-[70vh] h-[40vh] md:w-[45%] mt-[10px] md:mt-[0px]'>
                 <div className='bg-[#93C8AE] p-[20px] rounded-lg'>
                 <Carousel
                     infinite={true}
