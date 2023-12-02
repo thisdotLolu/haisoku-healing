@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionThree = () => {
   return (
-    <div className='mx-auto max-w-[1920px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 md:flex md:flex-row flex flex-col items-center justify-between mt-[100px] rounded-md'>
+    <div className='mx-auto max-w-[1400px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 md:flex md:flex-row flex flex-col items-center justify-between mt-[100px] rounded-md'>
      <div className='md:w-[45%] w-[100%]'>
      <h1
      className='text-[2.5rem]'

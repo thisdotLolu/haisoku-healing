@@ -29,7 +29,7 @@ const Footer = () => {
       <div className='h-[full] flex justify-center items-center cursor-pointer'>
         <h2
         className='text-[1.4rem]'
-        >HAISOKU</h2>
+        >REMEDIUM</h2>
         <img
         className='h-[50px] w-[50px]'
              alt='Logo'
@@ -37,7 +37,7 @@ const Footer = () => {
         /> 
         <h2
         className='text-[1.4rem]'
-        >HEALING</h2>
+        >HEALTH</h2>
     </div>
        <p className='text-sm'>TRANSFORMING HEALTH</p>
       </div>

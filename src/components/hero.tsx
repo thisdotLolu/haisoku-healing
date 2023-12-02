@@ -4,6 +4,7 @@ import React from 'react'
 import Textsection from './textsection'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { AiOutlineSchedule } from "react-icons/ai"
 
 
 
@@ -44,7 +45,7 @@ const slides = [
 
 const Hero = () => {
     return (
-        <div className='mx-auto max-w-[1920px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 md:flex md:flex-row flex-col items-center justify-between mt-[150px]'>
+        <div className='mx-auto max-w-[1400px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 md:flex md:flex-row flex-col items-center justify-between mt-[100px]'>
             <div className='h-[100%] md:w-[45%] w-[100%]'>
                 <h2 className='text-[2.5rem] text-black my-[20px]'>
                     <span className='underline-curve'></span>
@@ -57,15 +58,21 @@ const Hero = () => {
 
                 <div className='w-full md:flex md:flex-row flex flex-col justify-center items-center md:justify-start'>
                 <button
-                className='border p-[10px] bg-[#93C8AE] rounded-lg text-white border-[#b5d9c7] my-[20px] md:px-[20px] hover:bg-[#89c2a6]'
+                className='border p-[10px] bg-[#93C8AE] rounded-lg text-white border-[#b5d9c7] mb-[50px] md:mb-[0px] md:px-[20px] hover:bg-[#89c2a6] w-[200px] md:w-[unset]'
                 >
                 Get Started    
                 </button>
                 <button
-                className='border p-[10px] md:mx-[20px] mx-[0px] bg-[#93C8AE] rounded-lg text-white border-[#b5d9c7] my-[20px] px-[20px] hover:bg-[#89c2a6]'
+                className='border p-[10px] md:mx-[20px] mx-[0px] bg-[#93C8AE] rounded-lg text-white border-[#b5d9c7] my-[20px] px-[20px] hover:bg-[#89c2a6] hidden md:block'
                 >
                 Schedule A Meeting
                 </button>
+                
+                <AiOutlineSchedule 
+                className='border bg-[#93C8AE] rounded-[250px] w-[70px] h-[70px] text-white border-[#b5d9c7] my-[20px] px-[20px] hover:bg-[#89c2a6] z-[100000000000] fixed bottom-2 right-2 md:hidden flex justify-center items-center'
+                size={40}
+                />
+                
                 </div>
             </div>
 
