@@ -5,10 +5,7 @@ import {SiMinds} from 'react-icons/si'
 import {FaNutritionix} from 'react-icons/fa'
 import {SlEnergy} from 'react-icons/sl'
 import {AiOutlineGlobal} from 'react-icons/ai'
-// SiMinds
-// FaNutritionix
-// SlEnergy
-// AiOutlineGlobal`cgqw
+
 
 const SectionTwo = () => {
   return (

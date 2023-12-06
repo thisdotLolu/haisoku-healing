@@ -13,7 +13,7 @@ const Logo = () => {
         className='md:text-[1.2rem] text-[1rem]'
         >REMEDIUM</h2>
         <img
-             className='md:w-[50px] md:h-[50px] w-[40px] h-[40px]'
+             className='md:w-[50px] md:h-[50px] w-[20px] h-[20px]'
              alt='Logo'
              src='/LOGOS .png'
         /> 
