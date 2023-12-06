@@ -8,7 +8,7 @@ import Footer from '@/components/footer'
 const quicksand = Quicksand({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Haisoku Healing | Home',
+  title: 'Remedium Health | Home',
   description: 'Healing service in Germany',
 }
 
