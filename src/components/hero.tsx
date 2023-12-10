@@ -53,7 +53,7 @@ const Hero = () => {
                 </h2>
 
                 <p className='text-[1.1rem] my-[20px]'>
-                    At Haisoku Healing, we believe in the power of nature to heal, nurture, and rejuvenate. Our mission is to guide you on your journey to optimal health and well-being through natural and holistic approaches. Whether you're seeking relief from a specific ailment or simply want to enhance your overall vitality, our experienced team is here to support you every step of the way.
+                    At Remedium Health, we believe in the power of nature to heal, nurture, and rejuvenate. Our mission is to guide you on your journey to optimal health and well-being through natural and holistic approaches. Whether you're seeking relief from a specific ailment or simply want to enhance your overall vitality, our experienced team is here to support you every step of the way.
                 </p>
 
                 <div className='w-full md:flex md:flex-row flex flex-col justify-center items-center md:justify-start'>
@@ -62,16 +62,27 @@ const Hero = () => {
                 >
                 Get Started    
                 </button>
+
                 <button
                 className='border p-[10px] md:mx-[20px] mx-[0px] bg-[#93C8AE] rounded-lg text-white border-[#b5d9c7] my-[20px] px-[20px] hover:bg-[#89c2a6] hidden md:block'
                 >
+                <a 
+                target='_blank'
+               
+                href='https://calendly.com'>
                 Schedule A Meeting
+                </a>
                 </button>
                 
+                <a href='https://calendly.com'
+                target='_blank'
+                >
                 <AiOutlineSchedule 
                 className='border bg-[#93C8AE] rounded-[250px] w-[70px] h-[70px] text-white border-[#b5d9c7] my-[20px] px-[20px] hover:bg-[#89c2a6] z-[100000000000] fixed bottom-2 right-2 md:hidden flex justify-center items-center'
                 size={40}
                 />
+                </a>
+                
                 
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Philosophy = () => {
   return (
-    <div>
+    <div >
         
     </div>
   )
