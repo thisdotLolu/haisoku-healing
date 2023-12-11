@@ -23,8 +23,8 @@ const SignInForm = () => {
         .then((userCredential)=>{
           console.log(userCredential)
           setUser(userCredential.user)
-          router.push('/academy');
           setLoading(false);
+          router.push('/academy');
         })
       .catch((error)=>{
         setLoading(false)

@@ -327,7 +327,10 @@ const Navbar = () => {
                             className='hover:bg-[rgba(0,0,0,0.1)] my-[5px] px-[15px] p-[5px] w-[100%]'
                           >
                             <Link
-                              onClick={() => setShowOptions(false)}
+                              onClick={() => {
+                                setShowOptions(false)
+                                toggleMenu()
+                              }}
                               className='mx-auto w-[100%] block text-start'
                               href='/sign-in'
                             >Login</Link>
@@ -337,7 +340,10 @@ const Navbar = () => {
                             className='hover:bg-[rgba(0,0,0,0.1)] my-[5px] px-[15px] p-[5px] w-[100%]'
                           >
                             <Link
-                              onClick={() => setShowOptions(false)}
+                              onClick={() => {
+                                setShowOptions(false)
+                                toggleMenu()
+                              }}
                               className='block text-start'
                               href='/sign-up'
                             >Sign Up</Link>

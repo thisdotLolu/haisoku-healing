@@ -30,7 +30,7 @@ const SectionTwo = () => {
           size={50}
           />
           <h3
-          className='text-[1.5rem] my-[5px] font-extrabold'
+          className='text-[1.5rem] my-[5px] font-bold'
           >Herbal Healing</h3>
           <p
           className='text-center text-[1.1rem] font-extralight h-[70%]'
@@ -41,7 +41,7 @@ const SectionTwo = () => {
           size={50}
           />
           <h3
-          className='text-[1.5rem] my-[5px] font-extrabold'
+          className='text-[1.5rem] my-[5px] font-bold'
           >Mindful Practices</h3>
           <p
           className='text-center text-[1.1rem] font-extralight h-[70%]'
@@ -52,7 +52,7 @@ const SectionTwo = () => {
           size={50}
           />
           <h3
-          className='text-[1.5rem] my-[5px] font-extrabold'
+          className='text-[1.5rem] my-[5px] font-bold'
           >Nutrition Guidance</h3>
           <p
           className='text-center text-[1.1rem] font-extralight h-[70%]'
@@ -64,7 +64,7 @@ const SectionTwo = () => {
           size={50}
           />
           <h3
-          className='text-[1.5rem] my-[5px] font-extrabold'
+          className='text-[1.5rem] my-[5px] font-bold'
           >Energy Healing</h3>
           <p
           className='text-center text-[1.1rem] font-extralight h-[70%]'
@@ -75,7 +75,7 @@ const SectionTwo = () => {
           size={50}
           />
           <h3
-          className='text-[1.5rem] my-[5px] font-extrabold'
+          className='text-[1.5rem] my-[5px] font-bold'
           >Holistic Lifestyle</h3>
           <p
           className='text-center text-[1.1rem] font-extralight h-[70%]'

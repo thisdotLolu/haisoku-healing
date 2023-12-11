@@ -21,7 +21,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={quicksand.className}>
+      <body className={quicksand.className}
+      style={{
+        backgroundColor:'white'
+      }}
+      >
 
         <AuthContextProvider>
         <Toaster
