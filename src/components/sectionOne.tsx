@@ -8,7 +8,7 @@ const SectionOne = () => {
         className='bg-[#b5d9c7] h-[5px] w-[50px] mr-[10px]'
         />
         <h1
-        className='md:text-[2.5rem] text-[2rem]'
+        className='lg:text-[2.5rem] text-[2rem]'
         >Our Approach</h1>
         <hr
         className='bg-[#b5d9c7] h-[5px] w-[50px] ml-[10px]'

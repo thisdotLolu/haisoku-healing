@@ -45,8 +45,8 @@ const slides = [
 
 const Hero = () => {
     return (
-        <div className='mx-auto max-w-[1400px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 md:flex md:flex-row flex-col items-center justify-between mt-[100px]'>
-            <div className='h-[100%] md:w-[45%] w-[100%]'>
+        <div className='mx-auto max-w-[1400px] px-4 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 lg:flex lg:flex-row flex-col items-center justify-between mt-[100px]'>
+            <div className='h-[100%] lg:w-[45%] w-[100%]'>
                 <h2 className='text-[2.5rem] text-black my-[20px]'>
                     <span className='underline-curve'></span>
                     Welcome to Remedium Health - Your Path to Natural Healing
@@ -56,15 +56,15 @@ const Hero = () => {
                     At Remedium Health, we believe in the power of nature to heal, nurture, and rejuvenate. Our mission is to guide you on your journey to optimal health and well-being through natural and holistic approaches. Whether you're seeking relief from a specific ailment or simply want to enhance your overall vitality, our experienced team is here to support you every step of the way.
                 </p>
 
-                <div className='w-full md:flex md:flex-row flex flex-col justify-center items-center md:justify-start'>
+                <div className='w-full lg:flex lg:flex-row flex flex-col justify-center items-center lg:justify-start'>
                 <button
-                className='border p-[10px] bg-[#93C8AE] rounded-lg text-white border-[#b5d9c7] mb-[50px] md:mb-[0px] md:px-[20px] hover:bg-[#89c2a6] w-[200px] md:w-[unset]'
+                className='border p-[10px] bg-[#93C8AE] rounded-lg text-white border-[#b5d9c7] mb-[50px] lg:mb-[0px] lg:px-[20px] hover:bg-[#89c2a6] w-[200px] lg:w-[unset]'
                 >
                 Get Started    
                 </button>
 
                 <button
-                className='border p-[10px] md:mx-[20px] mx-[0px] bg-[#93C8AE] rounded-lg text-white border-[#b5d9c7] my-[20px] px-[20px] hover:bg-[#89c2a6] hidden md:block'
+                className='border p-[10px] lg:mx-[20px] mx-[0px] bg-[#93C8AE] rounded-lg text-white border-[#b5d9c7] my-[20px] px-[20px] hover:bg-[#89c2a6] hidden lg:block'
                 >
                 <a 
                 target='_blank'
@@ -78,7 +78,7 @@ const Hero = () => {
                 target='_blank'
                 >
                 <AiOutlineSchedule 
-                className='border bg-[#93C8AE] rounded-[250px] w-[70px] h-[70px] text-white border-[#b5d9c7] my-[20px] px-[20px] hover:bg-[#89c2a6] z-[100000000000] fixed bottom-2 right-2 md:hidden flex justify-center items-center'
+                className='border bg-[#93C8AE] rounded-[250px] w-[70px] h-[70px] text-white border-[#b5d9c7] my-[20px] px-[20px] hover:bg-[#89c2a6] z-[100000000000] fixed bottom-2 right-2 lg:hidden flex justify-center items-center'
                 size={40}
                 />
                 </a>
@@ -87,7 +87,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='md:h-[70vh] h-[40vh] md:w-[45%] mt-[10px] md:mt-[0px]'>
+            <div className='lg:h-[70vh] h-[40vh] lg:w-[45%] mt-[10px] lg:mt-[0px]'>
                 <div className='bg-[#93C8AE] p-[20px] rounded-lg'>
                 <Carousel
                     infinite={true}
@@ -101,7 +101,7 @@ const Hero = () => {
 
                     {
                         slides.map((slide, index) => (
-                            <div key={index} className='md:h-[70vh] h-[40vh] w-[100%] relative max-[600px]:w-[100%] m-auto'
+                            <div key={index} className='lg:h-[70vh] h-[40vh] w-[100%] relative max-[600px]:w-[100%] m-auto'
                             >
                                 <img
                                     className='absolute top-[0px] left-[0px] h-[100%] w-[100%] object-cover rounded-md'

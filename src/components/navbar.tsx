@@ -113,7 +113,7 @@ const Navbar = () => {
 
           <Logo />
 
-          <div className='hidden items-center justify-end w-[80%] md:flex'>
+          <div className='hidden items-center justify-end w-[80%] lg:flex'>
             {
               navItems.map((item, index) => (
                 <Link
@@ -222,7 +222,7 @@ const Navbar = () => {
             </div>
           </div>
           <div
-            className="cursor-pointer md:hidden text-[1.3rem] text-black flex"
+            className="cursor-pointer lg:hidden text-[1.3rem] text-black flex"
 
           >
             <button
