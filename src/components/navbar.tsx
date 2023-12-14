@@ -135,7 +135,7 @@ const Navbar = () => {
                   <div
                     className='absolute top-[100%]'
                     ref={myRef}
-                    onClick={handleClickInside}
+                    onClick={handleClickOutside}
                   >
 
                     {
@@ -272,7 +272,7 @@ const Navbar = () => {
                   <div
                     className='absolute top-[100%]'
                     ref={myRef}
-                    onClick={handleClickInside}
+                    onClick={handleClickOutside}
                   >
 
                     {

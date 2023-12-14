@@ -2,7 +2,7 @@ import React from 'react'
 
 const  About = () => {
   return (
-    <div className='mx-auto max-w-[1920px] px-2 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 mt-[100px] lg:mt-[150px]'>
+    <div className='mx-auto max-w-[1400px] px-2 sm:px-6 2xl:px-7 3xl:px-8 4xl:px-16 mt-[100px] lg:mt-[150px]'>
       <div className='relative flex flex-col lg:flex-row lg:flex items-center justify-between'>
       {/* <div className='absolute text-[4.5rem] top-[-50px] left-[400px] font-bold'>ABOUT ME</div> */}
       <div className='flex-[1] m-[20px] parent overflow-hidden rounded-xl'>
@@ -57,7 +57,7 @@ const  About = () => {
         />
         </div>
 
-        <div className='text-[1.3rem] bg-[#b5d9c7] p-[10px] rounded-lg mt-[20px] text-center'>
+        <div className='text-[1.3rem] bg-[#b5d9c7] p-[10px] rounded-lg text-center'>
       My commitment is to empower you on your path to wellness, helping you reconnect with your body's natural rhythms and innate healing capacities.
         Beyond my practice, I am dedicated to sharing knowledge, offering workshops, and fostering a community that celebrates holistic health. 
          My mission is to inspire and guide others toward a life of balance, vitality, and holistic well-being.         I warmly invite you to join me on this transformative journey toward optimal health and inner harmony.
@@ -65,7 +65,7 @@ const  About = () => {
       </div>
       
 
-      <div className='lg:w-[45%] w-full mb-[40px] lg:mb-[unset] overflow-hidden parent rounded-lg'>
+      <div className='lg:w-[45%] w-full mb-[40px] lg:mb-[-40px] overflow-hidden parent rounded-lg'>
         <img
         className='w-full h-[400px] object-cover child'
         src='/haisokuSitting.jpeg'

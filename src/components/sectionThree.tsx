@@ -20,10 +20,14 @@ const SectionThree = () => {
       </button>
      </div>
 
+     <div className='overflow-hidden rounded-lg parent lg:w-[45%] w-[100%]'>
      <img
      src='/bg-section3.jpeg'
-     className='lg:w-[45%] rounded-lg w-[100%]'
+     className='rounded-lg w-[100%] h-[100%] child'
      />
+     </div>
+
+     
       
     </div>
   )
